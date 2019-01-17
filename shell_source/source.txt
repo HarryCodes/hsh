@@ -1,0 +1,4 @@
+ls > test
+cat ./test | grep test
+
+

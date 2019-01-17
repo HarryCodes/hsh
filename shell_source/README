@@ -1,0 +1,50 @@
+[[Harrison Chen | chen1637 | CS252 Summer 2017 SHELL PROJECT (CODENAME: licsh, lENNY iS cOOL shELL) ]]
+
+------------------------------------------------------------------------------------------------------------------------
+
+[Things that work for sure]
+
+Wildcard with SubDirectories
+isatty()
+Tilde Expansion
+Escape Characters
+Quotes Handlers
+Zombies (I shoot them in the head)
+Source
+Environment Expansion
+PrintEnv
+SetEnv
+UnsetEnv
+cd (change directory)
+subShell
+Exit Handler
+Ctrl-C Handler
+Variable Prompt *lacks err output
+lenny function (READ CUSTOM FEATURES SECTION)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[Things I am still working on]
+
+Proper Zombie and Ctrl C
+Memory Leaks
+EditLine
+History
+Jobs
+TabCompletion
+shellrc *
+
+------------------------------------------------------------------------------------------------------------------------
+
+[CUSTOM FEATURES]
+
+(*lenny-disclaimer* 'variable prompt' and 'lenny function' perform the same end result, but achieve the same functionality differently.
+Having implemented lenny first and then variable prompt, I kept this feature because I like it.)
+'lenny': Custom Builtin Command, lenny, is a reference to the internet phenomena; the lennyface.
+A lennyface is composed of japanese characters and some ascii table characters,
+lined up in succession to create the illusion of a single-lined-image of a face or thing,
+similar to the concept of ASCII ART. An example of a lennyface is the default prompt that shows
+up everytime you launch a new instance of my shell. In this case, the lennyface is the lenny doggo.
+The purpose of 'lenny' is to provide the user with the ability to set a custom prompt using the builtin.
+The general grammar of this command is `lenny "SomeText and MoreText"`.
+It is just a fun little gimmick I wanted to try at and I encourage you to try it out!

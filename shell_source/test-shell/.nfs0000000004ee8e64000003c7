@@ -1,0 +1,3 @@
+ls ~ > out2
+ls ~cs180 >> out2
+ls ~cs180/share >> out2

@@ -1,0 +1,9 @@
+What does regex exec and the other command do? What are its arguments for?
+What is currently lacking about the current structure of the wildcard that lacks recursion?
+What can I currently fill into the code that is pseudo code?
+How do I create an array of Directories?
+Are there any extraneous regex codes that I need to know about and convert?
+What variable and variable type is the regex that is converted stored into?
+How can I turn that regex into a list of directories?
+How do the directories need to be sorted? and Why?
+
