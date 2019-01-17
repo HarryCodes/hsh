@@ -33,11 +33,11 @@ ctrl-c: ctrl-c.cc
 regular: regular.cc
 	$(CC) -o regular regular.cc 
 
-git-commit:
-	git add *.c *.cc *.h *.l *.y Makefile >> .local.git.out  || echo
-	git add test-shell/testall.out >> .local.git.out  || echo
-	git commit -a -m 'Commit' >> .local.git.out || echo
-	git push
+# git-commit:
+#	git add *.c *.cc *.h *.l *.y Makefile >> .local.git.out  || echo
+#	git add test-shell/testall.out >> .local.git.out  || echo
+#	git commit -a -m 'Commit' >> .local.git.out || echo
+#	git push
 
 clean:
 	rm -f lex.yy.c y.tab.c  y.tab.h shell ctrl-c regular cat_grep *.o
